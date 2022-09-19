@@ -5,6 +5,9 @@
 
 ## 입출력 정리
 - https://paris-in-the-rain.tistory.com/72
+- 한 줄씩 입력된다고 보면 된다.
+- 한 줄로 띄어쓰기로 되어 있을 때 : list(map(int, input().split()))
+- 여러 줄로 되어 있을 때 : [int(input()) for _ in range(입력개수)]
 
 ## 개인적으로 어려웠던 문제
 - 🥉이진수 (기존의 bin함수 말고 이진수 구하는 알고리즘까지 짜서 시간이 더 오래걸렸다)
